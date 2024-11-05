@@ -1,0 +1,110 @@
+/* Reseteamos los márgenes y los paddings predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el padding no afecte al tamaño total del elemento */
+}
+
+/* Estilos para el cuerpo y el fondo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Estilos para el encabezado sticky */
+.sticky-header {
+    background-color:#A1C6EA;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.sticky-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.sticky-header h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.sticky-header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.about-me {
+    max-width: 500px;
+}
+
+.about-me h2 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+}
+
+/* Estilos para las listas */
+h4 {
+    font-size: 22px;
+    color: #444;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
