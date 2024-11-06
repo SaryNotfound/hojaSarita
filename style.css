@@ -1,32 +1,19 @@
-/* Reseteamos los márgenes y los paddings predeterminados */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Asegura que el padding no afecte al tamaño total del elemento */
-}
 
-/* Estilos para el cuerpo y el fondo */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #F5EADA;
     line-height: 1.6;
-    color: #333;
+    color: #000000;
+    font-family: 'Lora', serif;
+    font-weight: 400;
 }
 
-/* Estilos para el encabezado sticky */
+/* Estilos para el encabezado */
 .sticky-header {
-    background-color:#A1C6EA;
-    color: black;
+    background-color: #444;
+    color: wheat;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px;
     position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.sticky-header h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
 }
 
 .sticky-header h2 {
@@ -35,76 +22,52 @@ body {
     margin-bottom: 10px;
 }
 
-.sticky-header a {
-    text-decoration: none;
-    color: black;
-}
 
-
-/* Estilos para el contenido principal */
-main {
-    padding: 20px;
-    max-width: 900px;
-    margin: 20px auto;
-}
-
-
-
-.profile-container {
+.seccion.de.perfil {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px; /* Espacio entre la imagen y el texto */
+    align-items: center; 
+    gap: 20px; /* Espacio entre imagen y texto */
+    margin: 20px; 
 }
 
-.profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+#imagen {
+    width: 400px; 
+    height: 400px;
+    border-radius: 10%; 
+    object-fit: cover; /* Asegura que la imagen se ajuste bien al tamaño */
 }
 
-.about-me {
-    max-width: 500px;
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
 }
 
-.about-me h2 {
-    font-size: 28px;
-    color: #444;
-    margin-bottom: 10px;
-}
-
-.about-me p {
-    font-size: 16px;
-    color: #555;
-    text-align: justify;
-}
-
-/* Estilos para las listas */
 h4 {
     font-size: 22px;
     color: #444;
     margin-top: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
 }
 
-ul {
-    list-style: none;
-    padding-left: 20px;
-}
 
-ul li {
-    margin-bottom: 10px;
-}
-
-/* Estilos para el pie de página */
-footer {
+footer p {
     background-color: #444;
-    color: white;
+    color: wheat;
     text-align: center;
     padding: 15px 0;
     margin-top: 40px;
 }
 
-footer p {
-    font-size: 14px;
+
+button {
+    background-color: #444;
+    color: wheat;
+    border-radius: 10%;
+    padding: 4px;
 }
+
+
+
+
+
